@@ -20,7 +20,7 @@ git clone https://github.com/torqu4to/conversao-temperatura.git
 Agora vamos construir a imagem do nosso container:
 
 ```bash
-docker build -t "seuUsuarioDockerHub"/conversao-temperatura:v1 .
+docker build -t torqu4to/conversao-temperatura:v1 .
 ```
 
 Vamos verificar se a imagem de fato foi criada:
@@ -54,5 +54,5 @@ localhost:8080
 Pra finalizar vamos subir nossa imagem para o DockerHub:
 
 ```bash
-docker push "seuUsuarioDockerHub"/conversao-temperatura:v1
+docker push torqu4to/conversao-temperatura:v1
 ```
