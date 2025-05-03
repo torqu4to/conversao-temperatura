@@ -29,9 +29,6 @@ Vamos verificar se a imagem de fato foi criada:
 docker image ls
 ```
 
-### Esse é o resultado esperado, listando suas imagens:
-<img src="https://cdn.discordapp.com/attachments/906609410472804415/1032054956678725702/unknown.png">
-
 <br>
 Vamos então executar o container utilizando os parâmetros -d para a aplicação rodar em background e -p 8080:8080 que faz a conexão entre as portas da aplicação e da sua máquina:
 
@@ -46,8 +43,6 @@ localhost:8080
 ```
 
 ### E voilà, aplicação rodando como esperado
-<img src="https://cdn.discordapp.com/attachments/906609410472804415/1032061832946520095/unknown.png">
-
 
 <br>
 
